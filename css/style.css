@@ -1,6 +1,8 @@
 body {
-	background: #FAEBD7 url('../images/vintage-concrete.png');
+	background: #FAEBD7 url('../images/pastel-sky.jpg');
 	color: #333;
+	font-family: 'Quicksand', sans-serif;
+
 }
 
 a {
@@ -8,7 +10,7 @@ a {
 	color: #333;
 }
 
-a:hover { color: Tomato; }
+a:hover { color: #66C7CC; }
 
 header, nav, main, footer {
 	width: 80%;
@@ -18,41 +20,55 @@ header, nav, main, footer {
 
 /* Header styles */
 header { 
-	background-color: #000;
-	color: BlanchedAlmond;
+	background-color: #667E80;
+	color: white;
 	min-height: 100px;
 	margin-top: 60px;
 }
 
 header h1 {
 	padding: 40px 60px;
+	font-size: 60px;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 30px;
+	color: #66C7CC
 }
 
 
 /* Nav styles */
-nav { background-color: #333; }
-nav ul { 
-	display: flex;
-	justify-content: flex-end;
+nav { 
+	background-color: #66C7CC; 
 }
-nav li { padding: 10px 10px; }
-nav a { color: BlanchedAlmond; }
-nav a:hover { color: white; }
+nav ul { 	
+	display: inline-flex;
+	justify-content: left;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-left: 60px;
+}
+nav li { padding: 15px 10px; }
+nav a { 
+	color: white;
+}
+nav a:hover { color: #CCFCFF; }
 
 
 /* Main styles */
 main { 
 	background-color: #fff;
 	display: grid;
-	grid-template-columns: 60% 40%;
+	grid-template-columns: 70% 30%;
 }
 
 section {
-	padding: 40px 60px;
+	padding: 40px 70px;
 }
 
 section ul, aside ul {
-	list-style-type: square;
+	list-style-type: circle;
 	margin-top: 20px; 
 	margin-left: 30px;
 }
@@ -65,8 +81,9 @@ aside {
 
 /* Footer styles */
 footer { 
-	background-color: #000;
+	background-color: #667E80;
 	color: white;
-	text-align: center;
+	text-align: right;
+	font-size: 12px;
  }
- footer p { padding: 20px; }
+ footer p { padding: 20px 60px 20px 20px }
