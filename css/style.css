@@ -68,7 +68,7 @@ section {
 }
 
 section ul, aside ul {
-	list-style-type: circle;
+	list-style-type: none;
 	margin-top: 20px; 
 	margin-left: 30px;
 }
